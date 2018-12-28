@@ -63,7 +63,7 @@ MainMenu.AddSubOption(new MenuItem(DEBUG_Items, "Items", typeof(MenuItemTypes.On
 MainMenu.OnOptionToggled += Menu_OnOptionToggled;
 MainMenu.Inti();
 
-// Item Toglle Handler
+// Item Toggle Handler
 public static void Menu_OnOptionToggled(MenuItem item)
 {
   bool IsOff = item.OptState == (int)MenuItemTypes.OnOffItem.Off; // Off must be equal 0 in any menu item enum (First Enum Option)
