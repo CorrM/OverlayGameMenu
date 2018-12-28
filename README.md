@@ -5,6 +5,7 @@ it's basic Full Dynamic external overlay game menu to easy controlling on off op
 1. Full Dynamic.
 2. Sub Item.
 3. Full Custome Items.
+4. Full Color Controle.
 
 
 # Result
