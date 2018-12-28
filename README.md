@@ -1,6 +1,12 @@
 # OverlayGameMenu
 it's basic Full Dynamic external overlay game menu to easy controlling on off options.
 
+# Features
+1. Full Dynamic.
+2. Sub Item.
+3. Full Custome Items.
+
+
 #### Result
 ![#1](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/1.png?raw=true)
 ![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
