@@ -21,7 +21,8 @@ public static MenuItemID NoGrass = new MenuItemID(20, true);
 public static MenuItemID DEBUG = new MenuItemID(200, false);
 public static MenuItemID DEBUG_Player = new MenuItemID(201, false);
 public static MenuItemID DEBUG_Items = new MenuItemID(202, false);
-
+```
+```
 // (Initialize)
 // OverlayWindow is your DirectXOverlayPlugin
 // Menu (in your DirectXOverlayPlugin Initialize func)
@@ -62,7 +63,8 @@ MainMenu.AddSubOption(new MenuItem(DEBUG_Items, "Items", typeof(MenuItemTypes.On
 
 MainMenu.OnOptionToggled += Menu_OnOptionToggled;
 MainMenu.Inti();
-
+```
+```
 // Item Toggle Handler
 public static void Menu_OnOptionToggled(MenuItem item)
 {
@@ -73,8 +75,14 @@ public static void Menu_OnOptionToggled(MenuItem item)
     // Do Stuff
   }
 }
-
+```
+```
 // (DON'T Forget)
 // Set it before [Graphics.EndScene()]
 MainMenu.Update();
 ```
+
+
+#### Result
+![#1](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/1.png?raw=true)
+![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
