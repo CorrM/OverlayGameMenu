@@ -1,5 +1,9 @@
 # OverlayGameMenu
-it's basic external overlay game menu to easy controlling on off options
+it's basic Full Dynamic external overlay game menu to easy controlling on off options.
+
+#### Result
+![#1](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/1.png?raw=true)
+![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
 
 #### Requirements
 1. Overlay.Net My Edition [HERE](https://github.com/CorrM/Overlay.NET)
@@ -81,8 +85,3 @@ public static void Menu_OnOptionToggled(MenuItem item)
 // Set it before [Graphics.EndScene()]
 MainMenu.Update();
 ```
-
-
-#### Result
-![#1](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/1.png?raw=true)
-![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
