@@ -13,7 +13,7 @@ it's basic Full Dynamic external overlay game menu to easy controlling on off op
 ![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
 
 # Requirements
-1. Overlay.Net My Edition [HERE](https://github.com/CorrM/Overlay.NET) (just compile and refrance it)
+1. Overlay.Net My Edition [HERE](https://github.com/CorrM/Overlay.NET) [use it as like the orignal version and use my own version] (just compile and refrance it)
 2. GameMath.Net [HERE](https://www.nuget.org/packages/GameMath.Net/)
 3. InputSimulator [HERE](https://www.nuget.org/packages/InputSimulator)
 4. SharpDX [HERE](https://www.nuget.org/packages/SharpDX)
