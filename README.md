@@ -1,5 +1,5 @@
 # OverlayGameMenu
-it's basic Full Dynamic external overlay game menu to easy controlling on off options.
+it's basic Full Dynamic external overlay game menu to easy controlling options.
 
 # Features
 1. Full Dynamic.
@@ -33,8 +33,9 @@ public static MenuItemID DEBUG = new MenuItemID(200, false);
 public static MenuItemID DEBUG_Player = new MenuItemID(201, false);
 public static MenuItemID DEBUG_Items = new MenuItemID(202, false);
 ```
+
+- Initialize
 ```
-// (Initialize)
 // OverlayWindow is your DirectXOverlayPlugin
 // Menu (in your DirectXOverlayPlugin Initialize func)
 var MainMenu = new MenuBase(OverlayWindow, true)
@@ -75,8 +76,9 @@ MainMenu.AddSubOption(new MenuItem(DEBUG_Items, "Items", typeof(MenuItemTypes.On
 MainMenu.OnOptionToggled += Menu_OnOptionToggled;
 MainMenu.Inti();
 ```
+
+- Item Toggle Handler
 ```
-// Item Toggle Handler
 public static void Menu_OnOptionToggled(MenuItem item)
 {
   bool IsOff = item.OptState == (int)MenuItemTypes.OnOffItem.Off; // Off must be equal 0 in any menu item enum (First Enum Option)
@@ -87,8 +89,8 @@ public static void Menu_OnOptionToggled(MenuItem item)
   }
 }
 ```
+
+- Set this before [Graphics.EndScene()]
 ```
-// (DON'T Forget)
-// Set it before [Graphics.EndScene()]
 MainMenu.Update();
 ```
