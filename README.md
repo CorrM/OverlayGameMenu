@@ -34,7 +34,7 @@ public static MenuItemID DEBUG_Player = new MenuItemID(201, false);
 public static MenuItemID DEBUG_Items = new MenuItemID(202, false);
 ```
 
-- Initialize
+- *Initialize*, You can set this code in in your DirectXOverlayPlugin Initialize fucntion
 ```
 // OverlayWindow is your DirectXOverlayPlugin
 // Menu (in your DirectXOverlayPlugin Initialize func)
@@ -77,7 +77,7 @@ MainMenu.OnOptionToggled += Menu_OnOptionToggled;
 MainMenu.Inti();
 ```
 
-- Item Toggle Handler
+- *Item Toggle Handler*
 ```
 public static void Menu_OnOptionToggled(MenuItem item)
 {
@@ -90,7 +90,7 @@ public static void Menu_OnOptionToggled(MenuItem item)
 }
 ```
 
-- Set this before [Graphics.EndScene()]
+- *Set this before [Graphics.EndScene()]*
 ```
 MainMenu.Update();
 ```
