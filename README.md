@@ -16,8 +16,6 @@ it's basic Full Dynamic external overlay game menu to easy controlling options.
 1. Overlay.Net My Edition [HERE](https://github.com/CorrM/Overlay.NET) [use it as like the orignal version and use my own version] (just compile and refrance it)
 2. GameMath.Net [HERE](https://www.nuget.org/packages/GameMath.Net/)
 3. InputSimulator [HERE](https://www.nuget.org/packages/InputSimulator)
-4. SharpDX [HERE](https://www.nuget.org/packages/SharpDX)
-6. SharpDX.Direct2D1 [HERE](https://www.nuget.org/packages/SharpDX.Direct2D1)
 
 # Example
 ```
