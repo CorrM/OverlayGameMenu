@@ -12,7 +12,7 @@ namespace OverlayGameMenu
 
         private static bool IsKeyPressed(this IInputDeviceStateAdaptor adaptor, VirtualKeyCode keyCode)
         {
-            if(input.InputDeviceState.IsKeyDown(keyCode))
+            if(adaptor.IsKeyDown(keyCode))
             {
                 while (!input.InputDeviceState.IsKeyUp(keyCode))
                     Thread.Sleep(1);
