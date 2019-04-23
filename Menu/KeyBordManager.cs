@@ -14,7 +14,7 @@ namespace OverlayGameMenu
         {
             if(adaptor.IsKeyDown(keyCode))
             {
-                while (!input.InputDeviceState.IsKeyUp(keyCode))
+                while (!adaptor.IsKeyUp(keyCode))
                     Thread.Sleep(1);
 
                 return true;
