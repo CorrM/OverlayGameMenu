@@ -1,5 +1,5 @@
 # OverlayGameMenu
-it's basic Full Dynamic external overlay game menu to easy controlling options.
+it's Full Dynamic external overlay game menu to easy controlling options.
 
 # Features
 1. Full Dynamic.
@@ -8,7 +8,7 @@ it's basic Full Dynamic external overlay game menu to easy controlling options.
 4. Full Color Controle.
 
 
-# Result
+# ScreenShots
 ![#1](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/1.png?raw=true)
 ![#2](https://github.com/CorrM/OverlayGameMenu/blob/master/Imgs/2.png?raw=true)
 
