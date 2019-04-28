@@ -1,5 +1,5 @@
 # OverlayGameMenu
-it's Full Dynamic external overlay game menu to easy controlling options.
+Full Dynamic external overlay game menu to easy controlling options.
 
 # Features
 1. Full Dynamic.
